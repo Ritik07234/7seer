@@ -11,6 +11,10 @@
   flex-shrink: 0;
   height: 100vh;
   background: #f8fafc;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
 }
 
 .main-content {
@@ -20,6 +24,7 @@
   flex-direction: column;
   background: #f8fafc;
   overflow-x: auto;
+  margin-left: 260px;
 }
 
 .profile-settings-container {
